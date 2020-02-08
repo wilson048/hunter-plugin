@@ -1,8 +1,6 @@
 package com.github.lui798.hunter.command;
 
 import com.github.lui798.hunter.Hunter;
-import com.sun.corba.se.spi.legacy.connection.GetEndPointInfoAgainException;
-import org.apache.commons.lang.ObjectUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -35,7 +33,7 @@ public class CommandHunter implements TabExecutor, Listener {
     // Create a list for each client with an iteration HashMap<Client, 1>
     private HashMap<UUID, Integer> CIT;
 
-    // Stupid fuckin bool below
+    // Keep track if match is running
     private boolean running = false;
 
     public CommandHunter() {
@@ -102,9 +100,6 @@ public class CommandHunter implements TabExecutor, Listener {
                 player.setGameMode(GameMode.SPECTATOR);
             }
         }
-
-
-
     }
 
     @EventHandler

@@ -1,6 +1,6 @@
-package com.github.lui798.hunter.command;
+package xyz.novamc.hunter.command;
 
-import com.github.lui798.hunter.Hunter;
+import xyz.novamc.hunter.Hunter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -70,7 +70,10 @@ public class CommandHunter implements TabExecutor, Listener {
 
     @EventHandler
     public void onPlayerRespawn(PlayerRespawnEvent event) {
-        if (!running) return;
+        if (!running) {
+            event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.SATURATION, 60000000, 2, true, false));
+            return;
+        }
 
         Player player = event.getPlayer();
         new BukkitRunnable() {
@@ -93,6 +96,7 @@ public class CommandHunter implements TabExecutor, Listener {
         Player player = event.getPlayer();
         if (!running) {
             player.addPotionEffect(new PotionEffect(PotionEffectType.SATURATION, 60000000, 2, true, false));
+            player.setGameMode(GameMode.ADVENTURE);
         }
         else {
             // Checks to see if the player joining is a already in the match, if they're NOT set gamemode to spectator
@@ -130,7 +134,7 @@ public class CommandHunter implements TabExecutor, Listener {
         Player huntedPlayer = Bukkit.getServer().getPlayer(huntedPlayers.get(currentIteration));
 
         if (!Bukkit.getOnlinePlayers().contains(huntedPlayer)) {
-            player.sendMessage(ChatColor.RED + "The player you're trying to track is not currently in-game!");
+            player.sendMessage(ChatColor.RED + huntedPlayers.get(currentIteration).toString() + " is not currently in-game!");
             return;
         }
 
@@ -138,15 +142,15 @@ public class CommandHunter implements TabExecutor, Listener {
             player.setCompassTarget(huntedPlayer.getLocation());
         }
         else {
-            player.sendMessage(ChatColor.RED + "The player you're currently tracking is in another dimension.");
+            player.sendMessage(ChatColor.RED + huntedPlayer.getName() + " is in another dimension.");
             return;
         }
 
         if (fromChangeSelected) {
-            player.sendMessage(ChatColor.YELLOW + "Compass is now tracking " + huntedPlayer.getName() + "." + currentIteration);
+            player.sendMessage(ChatColor.YELLOW + "Compass is now tracking " + huntedPlayer.getName() + ".");
         }
         else {
-            player.sendMessage(ChatColor.GREEN + "Updated compass for " + huntedPlayer.getName() + "." + currentIteration);
+            player.sendMessage(ChatColor.GREEN + "Updated compass for " + huntedPlayer.getName() + ".");
         }
     }
 
@@ -197,8 +201,6 @@ public class CommandHunter implements TabExecutor, Listener {
             }
 
             running = false;
-            huntedPlayers.clear();
-            CIT.clear();
 
             for (Player p : sender.getServer().getOnlinePlayers()) {
                 if (p != null) {
@@ -215,6 +217,9 @@ public class CommandHunter implements TabExecutor, Listener {
                     }
                 }
             }
+
+            huntedPlayers.clear();
+            CIT.clear();
 
             sender.sendMessage(ChatColor.RED + "The hunting has stopped.");
             return true;

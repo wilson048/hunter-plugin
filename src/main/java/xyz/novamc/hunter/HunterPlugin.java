@@ -1,7 +1,9 @@
-package com.github.lui798.hunter;
+package xyz.novamc.hunter;
 
-import com.github.lui798.hunter.command.CommandHunter;
+import xyz.novamc.hunter.old.CommandHunter;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.Iterator;
 
 public class Hunter extends JavaPlugin {
     public static Hunter instance;

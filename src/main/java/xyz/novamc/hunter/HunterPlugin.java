@@ -1,19 +1,23 @@
 package xyz.novamc.hunter;
 
-import xyz.novamc.hunter.old.CommandHunter;
+import xyz.novamc.hunter.command.HunterCommand;
 import org.bukkit.plugin.java.JavaPlugin;
+import xyz.novamc.hunter.game.HunterGame;
 
-import java.util.Iterator;
+public class HunterPlugin extends JavaPlugin {
 
-public class Hunter extends JavaPlugin {
-    public static Hunter instance;
+    private HunterGame hunterGame;
 
     @Override
     public void onEnable() {
-        instance = this;
+        HunterConfig.init(this);
+        hunterGame = new HunterGame(this);
 
-        CommandHunter hunterCommand = new CommandHunter();
-        this.getServer().getPluginManager().registerEvents(hunterCommand, this);
-        this.getCommand("hunter").setExecutor(hunterCommand);
+        this.getServer().getPluginManager().registerEvents(hunterGame.getListener(), this);
+        this.getCommand("hunter").setExecutor(new HunterCommand(this));
+    }
+
+    public HunterGame getGame() {
+        return hunterGame;
     }
 }

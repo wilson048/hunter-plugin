@@ -2,22 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b085dc-a69e-4f88-933d-b1e7f8ac96e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/hunter-1.0-SNAPSHOT-all.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/hunter-1.0-SNAPSHOT-all.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/lui798/hunter/command/CommandHunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/lui798/hunter/command/CommandHunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/Hunter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/github/lui798/hunter/command/CommandHunter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/HunterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/HunterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/HunterPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/HunterPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/command/HunterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/command/HunterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/game/HunterGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/game/HunterGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/game/HunterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/game/HunterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/old/CommandHunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/old/CommandHunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/player/HunterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/player/HunterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/player/HunterPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/player/HunterPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/player/PlayerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/novamc/hunter/player/PlayerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +61,30 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hunter" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hunter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hunter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hunter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hunter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -71,6 +105,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vxw0VoE7o6MJLIcDgdalOgWISu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -83,6 +120,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
@@ -110,12 +148,31 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Debug" type="Remote">
+    <configuration name="hunter-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-Dorg.gradle.debug=true" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Debug Spigot" type="Remote">
       <module name="hunter.main" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="localhost" />
+      <option name="HOST" value="192.168.0.202" />
       <option name="PORT" value="5005" />
       <option name="AUTO_RESTART" value="false" />
       <RunnerSettings RunnerId="Debug">
@@ -126,11 +183,13 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.hunter [shadowJar]" />
-      <item itemvalue="Remote.Debug" />
+      <item itemvalue="Gradle.hunter-plugin [build]" />
+      <item itemvalue="Remote.Debug Spigot" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.hunter [shadowJar]" />
+        <item itemvalue="Gradle.hunter-plugin [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -160,33 +219,52 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578209663118">
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585428324347">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1578209663118" />
-    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1579147352019">
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1585179607465" />
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585428324347" />
+    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser" timestamp="1587100765878">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1579147352019" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1579157666876">
+    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1587100765878" />
+    <state x="1085" y="409" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585279890983" />
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1585178372283">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1579157666876" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1579157666876">
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1585178372283" />
+    <state width="2517" height="279" key="GridCell.Tab.0.bottom" timestamp="1587122000620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1579157666876" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1579157666875">
+    <state width="2517" height="350" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040/2560.0.2560.1400@0.0.2560.1400" timestamp="1585393681181" />
+    <state width="2517" height="279" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1587122000620" />
+    <state width="2517" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@2560.0.2560.1400" timestamp="1585206671852" />
+    <state width="2517" height="279" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585448071317" />
+    <state width="2517" height="279" key="GridCell.Tab.0.center" timestamp="1587122000620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1579157666875" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1579157666876">
+    <state width="2517" height="350" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040/2560.0.2560.1400@0.0.2560.1400" timestamp="1585393681181" />
+    <state width="2517" height="279" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1587122000620" />
+    <state width="2517" height="387" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@2560.0.2560.1400" timestamp="1585206671852" />
+    <state width="2517" height="279" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585448071317" />
+    <state width="2517" height="279" key="GridCell.Tab.0.left" timestamp="1587122000620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1579157666876" />
-    <state x="1076" y="185" key="SettingsEditor" timestamp="1578207961151">
+    <state width="2517" height="350" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040/2560.0.2560.1400@0.0.2560.1400" timestamp="1585393681181" />
+    <state width="2517" height="279" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1587122000620" />
+    <state width="2517" height="387" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@2560.0.2560.1400" timestamp="1585206671852" />
+    <state width="2517" height="279" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585448071316" />
+    <state width="2517" height="279" key="GridCell.Tab.0.right" timestamp="1587122000620">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1076" y="185" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1578207961151" />
+    <state width="2517" height="350" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040/2560.0.2560.1400@0.0.2560.1400" timestamp="1585393681181" />
+    <state width="2517" height="279" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1587122000620" />
+    <state width="2517" height="387" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@2560.0.2560.1400" timestamp="1585206671920" />
+    <state width="2517" height="279" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585448071317" />
+    <state x="1076" y="185" key="SettingsEditor" timestamp="1591335109567">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1076" y="185" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400/-1920.0.1536.824@0.0.2560.1400" timestamp="1591335109567" />
+    <state x="1076" y="185" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1585252568636" />
   </component>
 </project>

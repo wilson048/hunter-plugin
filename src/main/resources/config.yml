@@ -1,0 +1,13 @@
+# Configuration file for Hunter
+
+# Makes hunter's compasses track the nearest player instead of allowing the hunter to choose a player
+autoTracking: false
+
+# Time (in seconds) the hunters have to wait at the start of the match
+waitTime: 30
+
+# The size of the worldborder before the match starts
+lobbyBorderSize: 40.0
+
+# The size of the worldborder during the match
+matchBorderSize: 10000.0

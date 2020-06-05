@@ -1,6 +1,6 @@
-package xyz.novamc.hunter.command;
+package xyz.novamc.hunter.old;
 
-import xyz.novamc.hunter.Hunter;
+import xyz.novamc.hunter.HunterPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -26,7 +26,7 @@ import java.util.*;
      CIT -> clientIterationTracking
  */
 
-public class CommandHunter implements TabExecutor, Listener {
+public class CommandHunter implements Listener {
     // Creates a list of the hunted players
     private List<UUID> huntedPlayers;
 
@@ -76,19 +76,19 @@ public class CommandHunter implements TabExecutor, Listener {
         }
 
         Player player = event.getPlayer();
-        new BukkitRunnable() {
-            public void run() {
-                if (huntedPlayers.contains(event.getPlayer().getUniqueId())) {
-                    player.setGameMode(GameMode.SPECTATOR);
-                    huntedPlayers.remove(player.getUniqueId());
-                }
-                else {
-                    player.getInventory().addItem(new ItemStack(Material.COMPASS, 1));
-                    updateCompassTracking(player, false);
-                }
-
-            }
-        }.runTaskLater(Hunter.instance, 10);
+//        new BukkitRunnable() {
+//            public void run() {
+//                if (huntedPlayers.contains(event.getPlayer().getUniqueId())) {
+//                    player.setGameMode(GameMode.SPECTATOR);
+//                    huntedPlayers.remove(player.getUniqueId());
+//                }
+//                else {
+//                    player.getInventory().addItem(new ItemStack(Material.COMPASS, 1));
+//                    updateCompassTracking(player, false);
+//                }
+//
+//            }
+//        }.runTaskLater(HunterPlugin.instance, 10);
     }
 
     @EventHandler
@@ -154,10 +154,8 @@ public class CommandHunter implements TabExecutor, Listener {
         }
     }
 
-    @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length < 1 || args.length > 2) {
-            commandInvalid(sender);
             return false;
         }
 
@@ -254,31 +252,7 @@ public class CommandHunter implements TabExecutor, Listener {
             sender.sendMessage(ChatColor.GREEN + player.getDisplayName() + " is no longer being hunted.");
             return true;
         }
-        else {
-            commandInvalid(sender);
-            return false;
-        }
-    }
 
-    private void commandInvalid(CommandSender sender) {
-        sender.sendMessage(ChatColor.RED + "Invalid usage.");
-        sender.sendMessage(ChatColor.RED + "/hunter add <name>");
-        sender.sendMessage(ChatColor.RED + "/hunter remove <name>");
-        sender.sendMessage(ChatColor.RED + "/hunter start");
-        sender.sendMessage(ChatColor.RED + "/hunter stop");
-    }
-
-    @Override
-    public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
-        if (args.length != 1) return null;
-
-        final List<String> firstSet = Arrays.asList("add", "remove", "start", "stop");
-
-        final List<String> completions = new ArrayList<>();
-
-        StringUtil.copyPartialMatches(args[0], firstSet, completions);
-
-        Collections.sort(completions);
-        return completions;
+        return false;
     }
 }

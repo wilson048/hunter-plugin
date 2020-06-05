@@ -1,9 +1,0 @@
-name: Hunter
-version: 1.0-SNAPSHOT
-author: Lui798
-main: com.github.lui798.hunter.Hunter
-api-version: 1.14
-website: https://github.com/Lui798
-commands:
-  hunter:
-    description: Hunter commands
